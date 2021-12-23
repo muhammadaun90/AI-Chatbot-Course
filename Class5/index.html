@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1 = 234; // native or primitive
+        var name1 = "Aun"; // native
+        var isOpen = true; // native
+
+        // array is non-primitive or non-native data type
+        var names = ["Aun", "Zain", "Rabab", 12, true];
+        names[4] = 14;
+        // names.push("Syed");
+        // names.pop();
+        names.shift();
+        console.log(names);
+        // console.log(names[4]);
+        // console.log(names[1]);
+        var name = "Aun";
+        var copy = name;
+        console.log(name);
+        console.log(copy);
+
+        name = "something else";
+        copy = "different data"
+        console.log(name);
+        console.log(copy);
+        
+        // Array clone technique
+        var names = [12, "Zain", true];
+        // ES5 way
+        // var copy = [].concat(names)
+        var copy = [...names];
+        console.log("names:", names);
+        console.log("copy", copy);
+        names.push(5)
+        copy.push(90)
+        console.log("names:", names);
+        console.log("copy:", copy);
+    </script>
+</body>
+</html>

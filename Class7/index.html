@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions</title>
+</head>
+<body>
+    <script>
+        // let isClose = false;
+        // if (!isClose){
+        //     console.log("Please close the door");
+        // }
+
+        // Compound comparison
+        // let temperature = prompt("Enter temp please");
+        // if (temperature <= 20 && temperature >= 0){
+        //     console.log("Carry Jacket");
+        // } else {
+        //     console.log("No need to carry jacket");
+        // }
+
+        // Chain if statement
+        let temperature = prompt("Enter temperature please");
+        if (temperature <= 20 && temperature >= 0){
+            console.log("Carry Jacket");
+        } else if (temperature > 20 && temperature <= 35) {
+            console.log("No need to carry jacket");
+        } else if (temperature > 35) {
+            console.log("It's too hot, avoid going outside");
+        }
+        else if (temperature < 0) {
+            console.log("It's too cold, don't go outside")
+        }
+    
+    </script>
+</body>
+</html>
