@@ -25,11 +25,11 @@ function check() {
     }
 }
 
-switch (cityName) {
-    case 5:
-        console.log("Its 5");
-        break;
+// switch (cityName) {
+//     case 5:
+//         console.log("Its 5");
+//         break;
 
-    case "LONDON":
-        result.innerText = "Your city is one of the top 5 city in the world";
-}
+//     case "LONDON":
+//         result.innerText = "Your city is one of the top 5 city in the world";
+// }
